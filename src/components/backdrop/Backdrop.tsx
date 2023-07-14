@@ -81,14 +81,14 @@ const BackdropComponent = () => {
             })
           );
 
-    const opacityValueAnimation = () =>
-      withTiming(state.value === CONTEXT_MENU_STATE.ACTIVE ? 1 : 0, {
-        duration: HOLD_ITEM_TRANSFORM_DURATION,
-      });
+    // const opacityValueAnimation = () =>
+    //   withTiming(state.value === CONTEXT_MENU_STATE.ACTIVE ? 1 : 0, {
+    //     duration: HOLD_ITEM_TRANSFORM_DURATION,
+    //   });
 
     return {
       top: topValueAnimation(),
-      opacity: opacityValueAnimation(),
+      // opacity: opacityValueAnimation(),
     };
   });
 
