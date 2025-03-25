@@ -17,9 +17,8 @@ type IconProps = {
 
 const Icon = ({ iconComponent, name }: IconProps) => {
   const { theme } = useInternal();
-  let AnimatedIcon = Animated.createAnimatedComponent<IconComponentProps>(
-    iconComponent
-  );
+  let AnimatedIcon =
+    Animated.createAnimatedComponent<IconComponentProps>(iconComponent);
 
   const iconProps = useAnimatedProps(() => {
     return {
@@ -27,6 +26,7 @@ const Icon = ({ iconComponent, name }: IconProps) => {
     };
   }, [theme]);
 
+  // @ts-ignore
   return <AnimatedIcon name={name} size={18} animatedProps={iconProps} />;
 };
 
