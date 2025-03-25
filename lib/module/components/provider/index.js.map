@@ -1,0 +1,1 @@
+{"version":3,"names":["default"],"sources":["index.ts"],"sourcesContent":["export { default } from './Provider';\nexport type { HoldMenuProviderProps } from './types';\n"],"mappings":"AAAA,SAASA,OAAO,QAAQ,YAAY","ignoreList":[]}
