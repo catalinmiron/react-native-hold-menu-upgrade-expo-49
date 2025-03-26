@@ -6,3 +6,4 @@ type MenuItemComponentProps = {
 };
 declare const MenuItem: React.MemoExoticComponent<({ item, isLast }: MenuItemComponentProps) => JSX.Element>;
 export default MenuItem;
+//# sourceMappingURL=MenuItem.d.ts.map

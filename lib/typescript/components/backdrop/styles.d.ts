@@ -8,3 +8,4 @@ export declare const styles: {
         bottom: 0;
     };
 };
+//# sourceMappingURL=styles.d.ts.map

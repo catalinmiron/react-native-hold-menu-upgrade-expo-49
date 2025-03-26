@@ -13,3 +13,4 @@ export type InternalContextType = {
     };
 };
 export declare const InternalContext: import("react").Context<InternalContextType>;
+//# sourceMappingURL=internal.d.ts.map

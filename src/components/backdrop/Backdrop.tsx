@@ -1,5 +1,9 @@
 import React, { memo } from 'react';
 import { StyleSheet } from 'react-native';
+import {
+  TapGestureHandler,
+  TapGestureHandlerGestureEvent,
+} from 'react-native-gesture-handler';
 import Animated, {
   useAnimatedGestureHandler,
   useAnimatedProps,
@@ -7,31 +11,24 @@ import Animated, {
   withDelay,
   withTiming,
 } from 'react-native-reanimated';
-import {
-  TapGestureHandler,
-  TapGestureHandlerGestureEvent,
-} from 'react-native-gesture-handler';
 
 // Components
 import { BlurView } from 'expo-blur';
 
 // Utils
-import { styles } from './styles';
 import {
   CONTEXT_MENU_STATE,
   HOLD_ITEM_TRANSFORM_DURATION,
-  IS_IOS,
   WINDOW_HEIGHT,
 } from '../../constants';
-import {
-  BACKDROP_LIGHT_BACKGROUND_COLOR,
-  BACKDROP_DARK_BACKGROUND_COLOR,
-} from './constants';
 import { useInternal } from '../../hooks';
+import {
+  BACKDROP_DARK_BACKGROUND_COLOR,
+  BACKDROP_LIGHT_BACKGROUND_COLOR,
+} from './constants';
+import { styles } from './styles';
 
-const AnimatedBlurView = IS_IOS
-  ? Animated.createAnimatedComponent(BlurView)
-  : Animated.View;
+const AnimatedBlurView = Animated.createAnimatedComponent(BlurView);
 
 type Context = {
   startPosition: {

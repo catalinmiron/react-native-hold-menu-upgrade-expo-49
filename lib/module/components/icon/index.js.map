@@ -1,1 +1,1 @@
-{"version":3,"names":["default"],"sources":["index.ts"],"sourcesContent":["export { default } from './Icon';\n"],"mappings":"AAAA,SAASA,OAAO,QAAQ,QAAQ","ignoreList":[]}
+{"version":3,"names":["default"],"sourceRoot":"../../../../src","sources":["components/icon/index.ts"],"mappings":";;AAAA,SAASA,OAAO,QAAQ,QAAQ","ignoreList":[]}

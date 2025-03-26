@@ -12,3 +12,4 @@ export declare const menuAnimationAnchor: (anchorPoint: TransformOriginAnchorPos
     };
 };
 export declare const getTransformOrigin: (posX: number, itemWidth: number, windowWidth: number, bottom?: boolean) => TransformOriginAnchorPosition;
+//# sourceMappingURL=calculations.d.ts.map

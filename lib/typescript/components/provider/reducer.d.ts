@@ -18,3 +18,4 @@ export type Action = {
 };
 export declare const reducer: (state: StateProps, action: Action) => StateProps;
 export declare const initialState: StateProps;
+//# sourceMappingURL=reducer.d.ts.map

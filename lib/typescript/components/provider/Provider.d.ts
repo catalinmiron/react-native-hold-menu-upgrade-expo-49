@@ -8,3 +8,4 @@ export interface Store {
 export declare let AnimatedIcon: any;
 declare const Provider: React.MemoExoticComponent<({ children, theme: selectedTheme, iconComponent, safeAreaInsets, onOpen, onClose, }: HoldMenuProviderProps) => JSX.Element>;
 export default Provider;
+//# sourceMappingURL=Provider.d.ts.map

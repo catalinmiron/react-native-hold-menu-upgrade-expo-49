@@ -26,3 +26,4 @@ declare const styleGuide: {
     };
 };
 export default styleGuide;
+//# sourceMappingURL=styleGuide.d.ts.map
