@@ -4,4 +4,3 @@ declare const MenuItems: React.MemoExoticComponent<({ items }: {
     items: MenuItemProps[];
 }) => JSX.Element>;
 export default MenuItems;
-//# sourceMappingURL=MenuItems.d.ts.map

@@ -33,8 +33,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
-    "babel-plugin-module-resolver": "^4.1.0",
-    "react-native-builder-bob": "^0.38.0"
+    "babel-plugin-module-resolver": "^4.1.0"
   },
   "private": true
 }

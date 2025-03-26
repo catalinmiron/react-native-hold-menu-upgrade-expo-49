@@ -1,1 +1,1 @@
-{"version":3,"names":["default","Backdrop"],"sourceRoot":"../../../../src","sources":["components/backdrop/index.ts"],"mappings":";;AAAA,SAASA,OAAO,IAAIC,QAAQ,QAAQ,YAAY","ignoreList":[]}
+{"version":3,"names":["default","Backdrop"],"sources":["index.ts"],"sourcesContent":["export { default as Backdrop } from './Backdrop';\n"],"mappings":"AAAA,SAASA,OAAO,IAAIC,QAAQ,QAAQ,YAAY","ignoreList":[]}

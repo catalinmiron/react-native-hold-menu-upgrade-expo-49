@@ -1,1 +1,1 @@
-{"version":3,"names":["_internal","require"],"sourceRoot":"../../../src","sources":["context/index.ts"],"mappings":";;;;;;;;;;;AAAA,IAAAA,SAAA,GAAAC,OAAA","ignoreList":[]}
+{"version":3,"names":["_internal","require"],"sources":["index.ts"],"sourcesContent":["export { InternalContext } from './internal';\n"],"mappings":";;;;;;;;;;;AAAA,IAAAA,SAAA,GAAAC,OAAA","ignoreList":[]}

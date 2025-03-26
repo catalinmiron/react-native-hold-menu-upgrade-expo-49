@@ -5,4 +5,3 @@ type IconProps = {
 };
 declare const _default: React.MemoExoticComponent<({ iconComponent, name }: IconProps) => JSX.Element>;
 export default _default;
-//# sourceMappingURL=Icon.d.ts.map

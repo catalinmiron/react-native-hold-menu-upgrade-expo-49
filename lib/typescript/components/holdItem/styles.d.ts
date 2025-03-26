@@ -13,4 +13,3 @@ declare const styles: {
     };
 };
 export default styles;
-//# sourceMappingURL=styles.d.ts.map
